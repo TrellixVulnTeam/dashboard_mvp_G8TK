@@ -22,4 +22,6 @@ fig = ff.create_gantt(df, title='Tickets by Integration & Priority - Gantt View'
                       group_tasks=True)
 
 st.plotly_chart(fig, use_container_width=True)
-st.write("When ou hover over the ticket bars, you'll get the link to the ClickUp ticket.")
+st.header("Small Gantt Chart Mock Up with Dummy data")
+st.write("When you hover over the ticket bars, you'll get the link to the ClickUp ticket.")
+st.write("On the right top corner you can make the chart full screen.")
